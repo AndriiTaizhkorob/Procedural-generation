@@ -1,0 +1,992 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &34415591442332972
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1709380861498654536}
+  - component: {fileID: 7634728159954963968}
+  - component: {fileID: 5343489963819226620}
+  m_Layer: 0
+  m_Name: Addition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1709380861498654536
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34415591442332972}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7086240482450617098}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &7634728159954963968
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34415591442332972}
+  m_Mesh: {fileID: 2934910318877152016, guid: e9c7208f9afc5fc498b432a88edcfa54, type: 3}
+--- !u!23 &5343489963819226620
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34415591442332972}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9a203a6c1090bc74fab0b77b3b7f1d1e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &1772088677349671453
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3550209046114331519}
+  m_Layer: 0
+  m_Name: Skysrcaper_top_empty
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3550209046114331519
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1772088677349671453}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7086240482450617098}
+  - {fileID: 3767109675394356197}
+  - {fileID: 1576984476538463758}
+  - {fileID: 8371661355018834611}
+  - {fileID: 2715915110235529452}
+  - {fileID: 6631883810361643883}
+  - {fileID: 498928179061872471}
+  - {fileID: 1971000030952389573}
+  - {fileID: 3362092680901738182}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7779065666859688434
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5248738750140192838}
+  - component: {fileID: 6705434893565330336}
+  - component: {fileID: 5583794717674996599}
+  m_Layer: 0
+  m_Name: Ground
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5248738750140192838
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7779065666859688434}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7086240482450617098}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &6705434893565330336
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7779065666859688434}
+  m_Mesh: {fileID: 1453043773871479701, guid: e9c7208f9afc5fc498b432a88edcfa54, type: 3}
+--- !u!23 &5583794717674996599
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7779065666859688434}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e0381eb69c250fb42b9538c623fc3ee3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &8465955436628492933
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7086240482450617098}
+  m_Layer: 0
+  m_Name: Skysrcaper_top_empty
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7086240482450617098
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8465955436628492933}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1709380861498654536}
+  - {fileID: 5248738750140192838}
+  m_Father: {fileID: 3550209046114331519}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &519344835226485314
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3550209046114331519}
+    m_Modifications:
+    - target: {fileID: 1098904786847832772, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_Name
+      value: Roof decore (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8439909835872333213, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: angles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8439909835872333213, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: 'angles.Array.data[1]'
+      value: 
+      objectReference: {fileID: 898196477912517473}
+    - target: {fileID: 8439909835872333213, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: 'angles.Array.data[2]'
+      value: 
+      objectReference: {fileID: 4243816108843808942}
+    - target: {fileID: 8439909835872333213, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: roofDecorations.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 12c20819e93c6364f85a34cb7c6d8496, type: 3}
+--- !u!4 &898196477912517473 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 811243388666923299, guid: 12c20819e93c6364f85a34cb7c6d8496,
+    type: 3}
+  m_PrefabInstance: {fileID: 519344835226485314}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2715915110235529452 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+    type: 3}
+  m_PrefabInstance: {fileID: 519344835226485314}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4243816108843808942 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4454065685394160364, guid: 12c20819e93c6364f85a34cb7c6d8496,
+    type: 3}
+  m_PrefabInstance: {fileID: 519344835226485314}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &877435007528410216
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3550209046114331519}
+    m_Modifications:
+    - target: {fileID: 1098904786847832772, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_Name
+      value: Roof decore (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8439909835872333213, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: roofDecorations.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8439909835872333213, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: 'roofDecorations.Array.data[4]'
+      value: 
+      objectReference: {fileID: 1220517722284707412, guid: 878b62fb7e992674faccb440d1539b03,
+        type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 12c20819e93c6364f85a34cb7c6d8496, type: 3}
+--- !u!4 &3362092680901738182 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+    type: 3}
+  m_PrefabInstance: {fileID: 877435007528410216}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1640081353095442763
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3550209046114331519}
+    m_Modifications:
+    - target: {fileID: 1098904786847832772, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_Name
+      value: Roof decore (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8439909835872333213, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: roofDecorations.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8439909835872333213, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: 'roofDecorations.Array.data[4]'
+      value: 
+      objectReference: {fileID: 1220517722284707412, guid: 878b62fb7e992674faccb440d1539b03,
+        type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 12c20819e93c6364f85a34cb7c6d8496, type: 3}
+--- !u!4 &3767109675394356197 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+    type: 3}
+  m_PrefabInstance: {fileID: 1640081353095442763}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2623706934930699769
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3550209046114331519}
+    m_Modifications:
+    - target: {fileID: 1098904786847832772, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_Name
+      value: Roof decore (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8439909835872333213, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: roofDecorations.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8439909835872333213, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: 'roofDecorations.Array.data[4]'
+      value: 
+      objectReference: {fileID: 1220517722284707412, guid: 878b62fb7e992674faccb440d1539b03,
+        type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 12c20819e93c6364f85a34cb7c6d8496, type: 3}
+--- !u!4 &498928179061872471 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+    type: 3}
+  m_PrefabInstance: {fileID: 2623706934930699769}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3992256359466714272
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3550209046114331519}
+    m_Modifications:
+    - target: {fileID: 1098904786847832772, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_Name
+      value: Roof decore (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8439909835872333213, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: roofDecorations.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8439909835872333213, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: 'roofDecorations.Array.data[4]'
+      value: 
+      objectReference: {fileID: 756163545069023618, guid: 736a32b510ffdd946bc381989d14a869,
+        type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 12c20819e93c6364f85a34cb7c6d8496, type: 3}
+--- !u!4 &1576984476538463758 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+    type: 3}
+  m_PrefabInstance: {fileID: 3992256359466714272}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4170242075525962091
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3550209046114331519}
+    m_Modifications:
+    - target: {fileID: 1098904786847832772, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_Name
+      value: Roof decore (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8439909835872333213, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: roofDecorations.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8439909835872333213, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: 'roofDecorations.Array.data[4]'
+      value: 
+      objectReference: {fileID: 1220517722284707412, guid: 878b62fb7e992674faccb440d1539b03,
+        type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 12c20819e93c6364f85a34cb7c6d8496, type: 3}
+--- !u!4 &1971000030952389573 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+    type: 3}
+  m_PrefabInstance: {fileID: 4170242075525962091}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6245321302906564637
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3550209046114331519}
+    m_Modifications:
+    - target: {fileID: 1098904786847832772, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_Name
+      value: Roof decore (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8439909835872333213, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: roofDecorations.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8439909835872333213, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: 'roofDecorations.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1220517722284707412, guid: 878b62fb7e992674faccb440d1539b03,
+        type: 3}
+    - target: {fileID: 8439909835872333213, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: 'roofDecorations.Array.data[2]'
+      value: 
+      objectReference: {fileID: 756163545069023618, guid: 736a32b510ffdd946bc381989d14a869,
+        type: 3}
+    - target: {fileID: 8439909835872333213, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: 'roofDecorations.Array.data[3]'
+      value: 
+      objectReference: {fileID: 756163545069023618, guid: 736a32b510ffdd946bc381989d14a869,
+        type: 3}
+    - target: {fileID: 8439909835872333213, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: 'roofDecorations.Array.data[4]'
+      value: 
+      objectReference: {fileID: 756163545069023618, guid: 736a32b510ffdd946bc381989d14a869,
+        type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 12c20819e93c6364f85a34cb7c6d8496, type: 3}
+--- !u!4 &8371661355018834611 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+    type: 3}
+  m_PrefabInstance: {fileID: 6245321302906564637}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9118914271708361157
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3550209046114331519}
+    m_Modifications:
+    - target: {fileID: 1098904786847832772, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_Name
+      value: Roof decore (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8439909835872333213, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: angles.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8439909835872333213, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: 'angles.Array.data[1]'
+      value: 
+      objectReference: {fileID: 4854001970761321257}
+    - target: {fileID: 8439909835872333213, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: 'angles.Array.data[2]'
+      value: 
+      objectReference: {fileID: 4854001970761321257}
+    - target: {fileID: 8439909835872333213, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: 'angles.Array.data[3]'
+      value: 
+      objectReference: {fileID: 4854001970761321257}
+    - target: {fileID: 8439909835872333213, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: roofDecorations.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8439909835872333213, guid: 12c20819e93c6364f85a34cb7c6d8496,
+        type: 3}
+      propertyPath: 'roofDecorations.Array.data[4]'
+      value: 
+      objectReference: {fileID: 1220517722284707412, guid: 878b62fb7e992674faccb440d1539b03,
+        type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 12c20819e93c6364f85a34cb7c6d8496, type: 3}
+--- !u!4 &4854001970761321257 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4454065685394160364, guid: 12c20819e93c6364f85a34cb7c6d8496,
+    type: 3}
+  m_PrefabInstance: {fileID: 9118914271708361157}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6631883810361643883 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2487617602167218862, guid: 12c20819e93c6364f85a34cb7c6d8496,
+    type: 3}
+  m_PrefabInstance: {fileID: 9118914271708361157}
+  m_PrefabAsset: {fileID: 0}
